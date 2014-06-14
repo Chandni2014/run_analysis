@@ -9,28 +9,28 @@ Samsung galaxy data analysed
 
 data tables		    files
 
-X_train 			 X_train.txt
-y_train 			 y_train.txt
-X_test 			 X_test.txt
-y_test       		 y_test.txt
-subject_train 		 subject_train.txt
-subject_test                       subject_test.txt
-features                             features.txt
+X_train 		-----	 X_train.txt
+y_train    -----			 y_train.txt
+X_test 	----		 X_test.txt
+y_test   ------    		 y_test.txt
+subject_train -----		 subject_train.txt
+subject_test    -----                   subject_test.txt
+features       -----                      features.txt
 
 2. Naming the columns of all the datatables appropriately.
 
 data tables		columns
 
-features			1. number, 2. Descrp
-X_train			names taken from Descrp
-X_test			names taken from Descrp
-y_train			1. Activity
-y_test			1. Activity
-subject_train                  	sub1
-subject_test		sub1
-X_train_msd 		has only coloumns with 'mean' and 'std'
-X_test_msd		has only columns with 'mean' and 'std'
-mergeddata		combining test and train data together.
+features		----	1. number, 2. Descrp
+X_train	   ----		names taken from Descrp
+X_test	----		names taken from Descrp
+y_train	 ----		1. Activity
+y_test		---  	1. Activity
+subject_train -------                 	sub1
+subject_test -----		sub1
+X_train_msd  -----		has only coloumns with 'mean' and 'std'
+X_test_msd	----	has only columns with 'mean' and 'std'
+mergeddata	-----	combining test and train data together.
 
 
 3. Combining the X and y of test/train datatables using cbind.
